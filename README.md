@@ -1,4 +1,4 @@
-Social Post Generator
+Social Post Generator using Writer Framework
 
 Welcome to the Social Post Generator! This application leverages the Writer Framework to generate engaging social media posts, relevant hashtags, and creative images based on a user-defined topic.
 
