@@ -37,9 +37,9 @@ def generate_and_display_posts_and_tags(state):
     # Generate image using OpenAI
     image_prompt = f"You are a creative and whimsical artist. Create an image of: {state['topic']}"
     response = client.images.generate(
-        model="dall-e-3",
+        model="dall-e-2",
         prompt=image_prompt,
-        size="1024x1024",
+        size="256x256",
         response_format="b64_json",
         quality="standard",
         n=1,
